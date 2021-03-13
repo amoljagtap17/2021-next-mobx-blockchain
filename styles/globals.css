@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Roboto Slab', serif;
+  background-color: firebrick;
+  color: snow;
+}
+
+main {
+  max-width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
 }
 
 a {
@@ -13,4 +22,63 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.list-item {
+  font-size: 22px;
+  padding: 12px;
+  margin: 5px 0;
+  border-bottom: 1px solid gray;
+}
+
+.message-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 22px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid yellow;
+  margin: 20px 0;
+  background: transparent;
+  color: whitesmoke;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 12px;
+  width: 150px;
+  margin-bottom: 50px;
+  outline: none;
+  background: green;
+  border: none;
+  font-weight: bold;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.block-container {
+  margin-top: 15px;
+}
+
+.block-item {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 15px 10px;
+  margin: 10px 0;
+}
+
+.block-item h3 {
+  margin-bottom: 10px;
+}
+
+.block-item pre {
+  font-size: 16px;
 }
